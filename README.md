@@ -16,3 +16,10 @@ One department can have many employees, but an employee belongs to one departmen
 One employee can have one salary, but one salary can be earned by an employee (this is according with the data set as the emp-no in the salaries table do not have duplicates) 
   
 
+Data engineering
+		Create a new database called Employees into pgAdmin4.
+		Create the tables and create a .sql file of the  table schemata.
+Import CSV files. On this stage I have got an error importing the employees’ table as the format date from the CSV file did not match with the pgAdmin file. So, I change the format in the csv file.
+I noted that the table titles were imported as the title VARCHAR was (14) but the lent for this should be 18. So, I have to update the employee imagen and the schemata.sql file 
+After the files were importing then I checked that the data was complete
+Push all the files into GitHub again 
