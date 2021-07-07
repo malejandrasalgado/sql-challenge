@@ -22,4 +22,9 @@ Data engineering
 Import CSV files. On this stage I have got an error importing the employees’ table as the format date from the CSV file did not match with the pgAdmin file. So, I change the format in the csv file.
 I noted that the table titles were imported as the title VARCHAR was (14) but the lent for this should be 18. So, I have to update the employee imagen and the schemata.sql file 
 After the files were importing then I checked that the data was complete
-Push all the files into GitHub again 
+Push all the files into GitHub again
+
+**face**
+
+
+
