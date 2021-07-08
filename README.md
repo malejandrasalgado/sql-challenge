@@ -69,6 +69,29 @@ On GitHub the following task where required
 3. Coding according with the instructions 
 
 
+## Observations 
+
+### Data
+
+The data analysed is historical so there are some assumptions that should keep in mind 
+
+1. One employee could have worked acroos departments during the period of time analysed 
+2. One employee could have earned more than one salary
+3. The data provided contains employee's information outside of the period. From my point of view the data should be clean from the csv files. This would be provided a cleaner and clear presentation. Avoiding filtering the information by date, but for the puspose of task i sude the filterig to show how to use the **where** clause
+
+### ERD diagram
+
+1. One department can have many employees, but an employee belongs to one department at the time
+2. One employee can have one salary, but one salary can be earned by an employee at the time
+3. One department can have many managers, but one manager belongs to one department at the time
+
+### SQL Query
+
+1. Giving an **alias** to the tables the code looks clear and easy to read. 
+2. Write the code **USING** gives a better presentation to the code
+3. Data types used **INTEGER**, **DATE**, **VARCHAR**
+4. The statements used on the project were **SELEC**, **JOIN**, **USING** and the clause **wHERE**
+
 
 
 
