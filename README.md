@@ -1,9 +1,22 @@
+# **SQL Challenge** 
+
+
 # sql-challenge
 Data Engineering
 
-1.	Follow the instructions of the homework for the first part of the challenge.
-2.	Inspected the csv files to become familiar with the database information. 
-  	Data modelling 
+	1. Follow the instructions of the homework for the first part of the challenge. 
+	   ```
+	   git clone
+	   git status
+	   git add
+	   git commit
+	   git push
+	   ```
+	
+	2. Inspected the csv files to become familiar with the database information and undertand the challenge 
+	
+	
+Data modelling 
 3.	Use the website http://www.quickdatabasediagrams.com to code the employee schema. 
 Process 
 a.	Read the documentation from quick database website.
