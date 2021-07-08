@@ -4,20 +4,9 @@
 # sql-challenge
 Data Engineering
 
-	1. Follow the instructions of the homework for the first part of the challenge. 
-	  
-	   - The commands used in **GitHub** to create the SQL repository wehere
-	  	
 	
-	   	git clone
-	   	git status
-	   	git add
-	   	git commit
-	   	git push
 	   
 		
-	
-	
 	
 Data modelling 
 3.	Use the website http://www.quickdatabasediagrams.com to code the employee schema. 
