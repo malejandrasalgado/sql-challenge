@@ -2,7 +2,8 @@
 
 ## INTRODUCTION
 
-The purpose of this challenge is to apply and complement the knoledge and skills acquired **SQL**
+The purpose of this challenge is to apply and complement the knowledge and skills acquired **SQL**
+
 The task involves:
 - GitHub
 - Data Modelling
@@ -27,7 +28,7 @@ On GitHub the following task where required
 
 #### Process of creating an *ERD diagram*
 
-1. Read the docummentation from <http://www.quickdatabasediagrams.com>
+1. Read the documentation  from <http://www.quickdatabasediagrams.com>
 2. Inspect the csv files for defining the parameters of the diagram 
 3. Name the columns 
     - Defined the table fields (such as data type, primary key, foreign key)
@@ -44,7 +45,7 @@ On GitHub the following task where required
 1. Analise the CSV files answering the following questions:
 
 - Is the employee number id (emp_no) unique?
-- What is the date of the data? is this the data that is neeed to answere the questions of the project
+- What is the date of the data? is this the data that is required to answer the questions of the project
 - How many rows each file has and take note so when the information is imported to SQL this will be a check point
 - What is the format of the cells - (number, date, text, etc.)
 
@@ -54,7 +55,7 @@ On GitHub the following task where required
 
 - Specify the data types, primary keys and order constraints 
 
-4. Create a file in PostgreSQL called **shemata** with the code use to create the **Schema**
+4. Create a file in PostgreSQL called **schemata ** with the code use to create the **Schema** for the employee database
 
 
 5. Import each CSV file into the corresponding SQL table 
