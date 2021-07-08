@@ -8,13 +8,13 @@ Data Engineering
 	  
 	   - The commands used in **GitHub** to create the SQL repository wehere
 	  	
-		```
+	
 	   	git clone
 	   	git status
 	   	git add
 	   	git commit
 	   	git push
-	   	```
+	   
 		
 	
 	
