@@ -5,15 +5,18 @@
 Data Engineering
 
 	1. Follow the instructions of the homework for the first part of the challenge. 
-	   ```
-	   git clone
-	   git status
-	   git add
-	   git commit
-	   git push
-	   ```
+	  
+	   - The commands used in **GitHub** to create the SQL repository wehere
+	  	
+		```
+	   	git clone
+	   	git status
+	   	git add
+	   	git commit
+	   	git push
+	   	```
+		
 	
-	2. Inspected the csv files to become familiar with the database information and undertand the challenge 
 	
 	
 Data modelling 
