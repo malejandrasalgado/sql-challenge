@@ -26,7 +26,7 @@ On GitHub the following task where required
 
 - Create a **table schema* for the six CSV files.
 
-#### Process of creating an *ERD diagram*
+#### Process of creating an *ERD Diagram*
 
 1. Read the documentation  from <http://www.quickdatabasediagrams.com>
 2. Inspect the csv files for defining the parameters of the diagram 
@@ -90,7 +90,7 @@ The data analysed is historical so there are some assumptions that should keep i
 1. Giving an **alias** to the tables the code looks clear and easy to read. 
 2. Write the code **USING** gives a better presentation to the code
 3. Data types used **INTEGER**, **DATE**, **VARCHAR**
-4. The statements used on the project were **SELEC**, **JOIN**, **USING** and the clause **wHERE**
+4. The statements used on the project were **SELECT**, **JOIN**, **USING** and the clause **WHERE**
 
 
 
