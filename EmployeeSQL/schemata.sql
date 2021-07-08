@@ -34,7 +34,11 @@ CREATE TABLE employees (
 
 CREATE TABLE salaries (
     emp_no INT   NOT NULL,
-    salary INT   NOT NULL
+    salary INT   NOT NULL,
+
+    CONSTRAINT uc_salaries_emp_no UNIQUE (
+        emp_no
+    )
 );
 
 CREATE TABLE titles (
@@ -65,4 +69,5 @@ REFERENCES salaries (emp_no);
 
 ALTER TABLE employees ADD CONSTRAINT fk_employees_title_id FOREIGN KEY(title_id)
 REFERENCES titles (title_id);
+
 
