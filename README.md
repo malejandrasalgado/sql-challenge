@@ -1,6 +1,6 @@
 # SQL CHALLENGE
 
-## INTRODUCTION
+## Introduction 
 
 The purpose of this challenge is to apply and complement the knowledge and skills acquired **SQL**
 
