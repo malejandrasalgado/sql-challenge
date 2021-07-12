@@ -5,12 +5,19 @@
 The purpose of this challenge is to apply and complement the knowledge and skills acquired **SQL**
 
 The task involves:
+- Data Cleaning 
 - GitHub
 - Data Modelling
 - Data Engineering  
 - Data Analysis
+- Bonus
 - Markdown 
 
+### Data cleaning in the CSV files
+
+1. Remove irrelevant data as the range date 
+2. Change the format date 
+2. Unify the columns name  
 
 ### GitHub
 
@@ -94,17 +101,20 @@ I used the  **wHERE** clause for filtering.
 3. Data types used **INTEGER**, **DATE**, **VARCHAR**
 4. The statements used on the project were **SELECT**, **JOIN**, **USING** and the clause **WHERE**
 
-## Bonus
+### Bonus
 
 
 For the bonus it was necessary installed psycopg2. However, it did not work then I insalled by a terminal `$ pip install psycopg2-binary` and started coding in Jupyter.
 
-### Observations 
+#### Observations 
 As expected, the distribution of 80s,90s salaries, show that the vast majority of salaries are in the lower bands, with the minimal numbers for higher bands (likely management or seniors).
 
 For average salaries by title, it appears that the average salary is fairly even across most groups, with managers, staff and senior staff earning more, and it appears htat managers, and non-technical staff (not engineering) earning higher than technical staff.
 
 
+### Markdown
+
+For the project I used basic syntax as **Headings**, **Bold**, **Lists**, **Links**, etc.
 
 
 
