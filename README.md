@@ -36,7 +36,7 @@ On GitHub the following task where required
 
 ### Data Engineering using SQL
  
-- Create a table for each od the six CSV files
+- Create a table for each of the six CSV files
 - Import each CSV file 
 
 
@@ -75,9 +75,11 @@ On GitHub the following task where required
 
 The data analysed is historical so there are some assumptions that should keep in mind 
 
-1. One employee could have worked acroos departments during the period of time analysed 
-2. One employee could have earned more than one salary
-3. The data provided contains employee's information outside of the period. From my point of view the data should be clean from the csv files. This would be provided a cleaner and clear presentation. Avoiding filtering the information by date, but for the puspose of task i sude the filterig to show how to use the **where** clause
+1. One employee could have worked across multiple departments during the period of time analysed 
+2. One employee could have earned more than one salary so this data should likely have included historical data
+3. The data provided contains employee's information outside of the period. From my point of view the data should be clean from the csv files to avoid
+having the filter the data further. This would be provided a cleaner and clear presentation. Avoiding filtering the information by date, but for the purpose of the exersice
+I used the  **wHERE** clause for filtering.
 
 ### ERD diagram
 
@@ -92,6 +94,15 @@ The data analysed is historical so there are some assumptions that should keep i
 3. Data types used **INTEGER**, **DATE**, **VARCHAR**
 4. The statements used on the project were **SELECT**, **JOIN**, **USING** and the clause **WHERE**
 
+## Bonus
+
+
+For the bonus it was necessary installed psycopg2. However, it did not work then I insalled by a terminal `$ pip install psycopg2-binary` and started coding in Jupyter.
+
+### Observations 
+As expected, the distribution of 80s,90s salaries, show that the vast majority of salaries are in the lower bands, with the minimal numbers for higher bands (likely management or seniors).
+
+For average salaries by title, it appears that the average salary is fairly even across most groups, with managers, staff and senior staff earning more, and it appears htat managers, and non-technical staff (not engineering) earning higher than technical staff.
 
 
 
